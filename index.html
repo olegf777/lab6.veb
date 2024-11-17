@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій мультимедійний сайт</title>
+    <link  href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Розділ з картою -->
+    <section id="map">
+        <h1 class="h1">Google Maps</h1>
+        <h4 class="h4">Мітка на карті</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10290.751112659867!2d24.029111259734226!3d49.84832383000046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add13da132129%3A0xe617063cf31652f8!2z0JLQuNGB0L7QutC40Lkg0LfQsNC80L7Qug!5e0!3m2!1suk!2sua!4v1731842666134!5m2!1suk!2sua" width="400" height="300" class="rounded" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+    </section>
+    
+    <!-- Розділ з 2 картою -->
+    <section id="map2"> 
+        <h4 class="h4">Маршрут</h4> 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d10292.29205880047!2d24.016978959726668!3d49.8410855820529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x473add7a31f0dccd%3A0x9869cc7025bc8e3f!2z0JvRjNCy0ZbQstGB0YzQutCwINC_0L7Qu9GW0YLQtdGF0L3RltC60LAg0ZbQvNC10L3RliDQodGC0LXQv9Cw0L3QsCDQkdCw0L3QtNC10YDQuCwg0LLRg9C70LjRhtGPINCh0YLQtdC_0LDQvdCwINCR0LDQvdC00LXRgNC4LCDQm9GM0LLRltCyLCDQm9GM0LLRltCy0YHRjNC60LAg0L7QsdC70LDRgdGC0Yw!3m2!1d49.8356402!2d24.0144368!4m5!1s0x473add13da132129%3A0xe617063cf31652f8!2z0JLQuNGB0L7QutC40Lkg0LfQsNC80L7Quiwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!3m2!1d49.848310999999995!2d24.039410999999998!5e0!3m2!1suk!2sua" width="400" height="300" class="rounded" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>     
+    </section>
+    
+    <!-- Розділ з 3 картою -->
+    <section id="map3"> 
+        <h4 class="h4">Панорамний перегляд</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1731843245762!6m8!1m7!1sCAoSLEFGMVFpcE0zQXN2ajgyMHVOdGMyQjg3bUpRV3ZyQV93NnVWY3RzYkVxNzhD!2m2!1d49.84831082890011!2d24.03157297317138!3f10.262490197002125!4f-0.18762822515738264!5f0.7820865974627469" width="400" height="300" class="rounded" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+    </section>
+    
+    <!-- Розділ з відео -->
+    <section id="video">
+        <h1 class="h1">Відео</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kC2hyiMR1Qg" frameborder="0" class="rounded" allowfullscreen></iframe>
+    </section>
+
+    <!-- Розділ з музикою -->
+    <section id="audio">
+        <h1 class="h1">Музика</h1>
+        <audio controls>
+            <source src="audio/shchedryk.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <!-- Розділ з інформерами -->
+    <section id="informers">
+        <h1 class="h1">Інформери</h1>
+        <link rel="stylesheet" href="https://ua.sinoptik.ua/resources/informer/css/informer.css">
+        <div class="sin-informer sin-informer_font-Arial sin-informer_theme-light" style="width:300px;" data-lang="uk">
+            <div class="sin-informer__header">
+                <a class="sin-informer__logo-link" href="https://ua.sinoptik.ua" target="_blank" rel="nofollow">
+                    <img class="sin-informer__logo-image" width="66" height="20" srcset="https://ua.sinoptik.ua/resources/informer/assets/icons/logo.png, https://ua.sinoptik.ua/resources/informer/assets/icons/logo2x.png 2x" src="https://ua.sinoptik.ua/resources/informer/assets/icons/logo.png" alt="Sinoptik - logo">
+                </a>
+                <p class="sin-informer__date">Погода на найближчий час</p>
+                <p class="sin-informer__time" data-format="24"><span class="sin-informer__time-icon"></span></p>
+            </div>
+            <div class="sin-informer__main sin-informer__main_inline">
+                <a class="sin-informer__entry" href="https://ua.sinoptik.ua/погода-львів" target="_blank" rel="nofollow">
+                    <p class="sin-informer__location"> Львів </p>
+                    <div class="sin-informer__primary" style="display: none">
+                        <p class="sin-informer__local-time"></p>
+                        <p class="sin-informer__temp" data-unit="c"></p>
+                        <div class="sin-informer__condition" data-icon-path="https://ua.sinoptik.ua/resources/informer/assets/icons/conditions"></div>
+                    </div>
+                    <div class="sin-informer__secondary" style="display: none">
+                        <p class="sin-informer__marker sin-informer__marker_wind" data-unit="ms" data-suffix="м/с" data-directions="Західний,Північно-Західний,Північний,Північно-Східний,Східний,Південно-Східний,Південний,Південно-Західний,Штиль" title="Вітер"><span class="sin-informer__marker-icon"></span></p>
+                        <p class="sin-informer__marker sin-informer__marker_humidity" title="Волога"><span class="sin-informer__marker-icon"></span></p>
+                        <p class="sin-informer__marker sin-informer__marker_pressure" data-unit="mm-hg" data-suffix="мм" title="Тиск"><span class="sin-informer__marker-icon"></span></p>
+                    </div>
+                </a>
+            </div>
+            <div class="sin-informer__footer"> Погода на 10 днів від <a class="sin-informer__domain-link" href="https://ua.sinoptik.ua/погода-львів/10-днів" target="_blank" rel="nofollow"> sinoptik.ua </a></div>
+        </div> 
+        <script src="https://ua.sinoptik.ua/api/informer/content?loc=bwCOPQ6RBMAlPUoebrAObrFr&cem=ik=Rgk=4ZrdJ2MiV2nE5GMu4CndxPUDoCr96CMAv2wD5"></script>  
+    </section>
+        
+    <section id="exchanger">
+        <div>
+            <!-- Currency Converter Script - FxExchangeRate.com  -->
+            <div style="width: 300px;height:auto;border:1px solid #2D6AB4;text-align:center;font-size:16px;font-family:sans-serif,Arial,Helvetica;border-top-right-radius:5px; border-top-left-radius:5px;background-color:#FFFFFF;">
+                <div style="width:100%; height:2.2rem;padding:5px 0px 0px 0px;background-color:#2D6AB4;font-weight:bold;">
+                    <a rel="nofollow" style="color:#FFFFFF;text-decoration:none;" href="https://www.fxexchangerate.com/">Currency Converter</a>
+                </div>
+                <script type="text/javascript" src="https://w.fxexchangerate.com/converter.php?fm=UAN&amp;ft=USD&amp;lg=en&amp;am=1&amp;ty=1"></script>
+                <div style="width:100%;margin-top:0.5em;">
+                    <input value="1" type="text" id="fxexchangerateAmount" style="margin-top:10px; width:75%; padding: 7px 8px;display: inline-block;border: 1px solid #ccc;box-shadow: inset 0 1px 3px #ddd;border-radius: 4px;vertical-align: middle;-webkit-box-sizing: border-box;-moz-box-sizing:border-box;box-sizing: border-box;" onkeyup="getfxexchangerate(); return false;">
+                    <span id="fxspanfm" style="padding-left:5px;font-weight:bold;color:#2D6AB4; position:relative; top:5px;">UAH</span> 
+                </div>
+                <select style="display: inline-block;width:92%;height: calc(1.5em + .75rem + 2px);padding: .375rem 1.75rem .375rem .75rem;margin-top: 1rem;font-size: 1rem;font-weight: 400;line-height: 1.5;color: #495057;vertical-align: middle;border: 1px solid #ced4da;border-radius: .25rem;" id="fxexchangerateFrom" onchange="getfxexchangerate(); return false;">
+                    <option value="USD">United States Dollar</option>
+                    <option value="EUR">Euro</option>
+                    <option value="GBP">British Pound</option>
+                    <option value="JPY">Japanese Yen</option>
+                    <option value="CHF">Swiss Franc</option>
+                    <option value="CAD">Canadian Dollar</option>
+                    <option value="AUD">Australian Dollar</option>
+                    <option value="CNY">Chinese Yuan</option>
+                    <option value="HKD">Hong Kong Dollar</option>
+                    <option value="RUB">Russian Rouble</option>
+                    <option value="MXN">Mexican Peso</option>
+                    <option value="ZAR">South African Rand</option>
+                    <option disabled="disabled">-----------------------------</option>
+                    <!-- Обрізаний список валюти -->
+                </select>
+                <div id="fxexchangerateResult" style="font-weight:bold;font-size:26px;color:#2D6AB4; text-align:center;width:96%;margin-top:0.5em">0.02414</div>
+                <div style="text-align:right;margin:0 0.5rem 0.2rem 0;">
+                    <a href="https://www.fxexchangerate.com/currency-converter-widget.html" rel="nofollow" style="padding-left:5px;color:#0000FF;font-size:12px;text-decoration:none;">Rates  17 Nov</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Розділ з кнопками соціальних мереж --> 
+    <section id="social"> 
+        <h1 class="h1">Соціальні мережі</h1> 
+        <!-- Twitter Timeline Embed --> 
+        <a class="twitter-timeline" data-width="300" data-height="500" data-theme="light" href="https://twitter.com/ukraine?ref_src=twsrc%5Etfw">Tweets by @Ukraine</a> 
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+    </section>
+      
+    <script src="js/script.js" defer></script> 
+    <script type="module" src="https://unpkg.com/@googlemaps/extended-component-library@0.6"></script>
+</body>
+</html>
